@@ -1,8 +1,8 @@
 # LinuxTips
 
-##How to Get rid of the login keyring password
+## How to Get rid of the login keyring password
 
-'''seahorse'''
+```seahorse```
 
 You have to go to Passwords Tab, and there you will se a folder: Passwords: login  
 
