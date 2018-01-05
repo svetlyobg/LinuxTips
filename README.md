@@ -16,7 +16,21 @@ https://community.linuxmint.com/tutorial/view/916
 
 ## Install Redshift
 
-```js
+`
 sudo apt-get install redshift redshift-gtk
+`
 
-```
+**if you get errors like...**
+
+Failed to run Redshift
+Trying location provider `geoclue2’…
+
+Unable to connect to GeoClue.
+
+Unable to get location from provider.`
+
+
+...install this:
+`
+sudo apt-get install geoclue-2.0
+`
