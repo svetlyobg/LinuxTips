@@ -13,3 +13,10 @@ Right Click and then ```Change Password```. Enter your old password, and leave b
 Now you can try rebooting, it shouldn't appear now!
 
 https://community.linuxmint.com/tutorial/view/916
+
+## Install Redshift
+
+```js
+sudo apt-get install redshift redshift-gtk
+
+```
