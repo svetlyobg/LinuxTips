@@ -35,3 +35,8 @@ Unable to get location from provider.```
 `
 sudo apt-get install geoclue-2.0
 `
+## Convert audiobooks to .mp3
+
+`
+ffmpeg -i downloaded_file.aa output.mp3
+`
