@@ -53,7 +53,7 @@ sudo dpkg-reconfigure lightdm
 
 ## Difference between init and shutdown
 
-| Init  	|Dicription   	|Shutdown   	|Dicription|  
+| Init  	|Description   	|Shutdown   	|Description|  
 |---	    |---	          |---	    	  |---        |
 |init 0   |Shuts down the system whithout calling any procces. Can be perfomed only by the SU|shutdown|SAFELY shuts down the system. Can be performed by any user|
 |||shutdown now|
@@ -68,7 +68,7 @@ sudo dpkg-reconfigure lightdm
 **Halt** instructs the hardware to stop all CPU functions, but leaves it powered on. You can use it to get the system to a state where you can perform low level maintenance.
 
 
-| Halt          | Dicription                            |
+| Halt          | Description                            |
 | ------------- | ------------------------------------- |
 |               |                                       |
 | halt          | Halts the machine (complete shutdown) |
@@ -77,11 +77,23 @@ sudo dpkg-reconfigure lightdm
 
 
 ## Power off Command
-**Poweroff** sends an ACPI signal which instructs the system to power down
+**Poweroff** sends an ACPI signal which instructs the system to power down.
 
-| Poweroff          | Dicription             |
+| Poweroff          | Description             |
 | ----------------- | ---------------------- |
 |                   |                        |
 | poweroff          | Powers off the machine |
 | poweroff --halt   | Halts the machine      |
 | poweroff --reboot | Reboot the machine     |
+
+
+## Reboot Command
+
+**Reboot** instructs the system to restart.
+
+| Reboot        | Description            |
+| ------------- | ---------------------- |
+| reboot        | Reboots the machine    |
+| reboot --halt | Halts the machine      |
+| reboot -p     | Powers off the machine |
+
