@@ -64,11 +64,8 @@ sudo dpkg-reconfigure lightdm
 |init 2|No network but multitasking support is present.|||
 |init 3|Network is present multitasking is present but with out GUI .|||
 |init 4|It is similar to runlevel 3; It is reserved for other purposes in research.Network is present multitasking and GUI is present with sound etc.|||
-|init 5|This runlevel is defined to system restart.
-|init s|Tells the init command to enter the maintenance mode. When the
-system enters maintenance mode from another run level, only the system console
-is used as the terminal.
-|
+|init 5|This runlevel is defined to system restart.|||
+|init s|Tells the init command to enter the maintenance mode. When the system enters maintenance mode from another run level, only the system console is used as the terminal.|||
 |init 6   |Restarts the system whithout calling any procces. Can be perfomed only by the SU.|shutdown -r|SAFELY restarts the system. Can be performed by any user.|
 |||shutdown -r09:35|Reboot the machine at 09:35am.|
 |||shutdown -c|Cancel a pending shutdown.|
