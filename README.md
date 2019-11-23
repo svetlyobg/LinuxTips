@@ -55,20 +55,33 @@ sudo dpkg-reconfigure lightdm
 
 | Init  	|Description   	|Shutdown   	|Description|  
 |---	    |---	          |---	    	  |---        |
-|init 0   |Shuts down the system whithout calling any procces. Can be perfomed only by the SU|shutdown|SAFELY shuts down the system. Can be performed by any user|
+|init 0   |Shuts down the system whithout calling any procces. Can be perfomed only by the SU.|shutdown|SAFELY shuts down the system. Can be performed by any user.|
 |||shutdown now|
-|||shutdown -p now|Powers off the machine|
-|||shutdown -H|Halts the system|
-|||shutdown 13:20|Schedules shutdown for 13:20|
-|init 6   |Restarts the system whithout calling any procces. Can be perfomed only by the SU|shutdown -r|SAFELY restarts the system. Can be performed by any user|
-|||shutdown -r09:35|Reboot the machine at 09:35am|
-|||shutdown -c|Cancel a pending shutdown|
+|||shutdown -p now|Powers off the machine.|
+|||shutdown -H|Halts the system.|
+|||shutdown 13:20|Schedules shutdown for 13:20.|
+|init 1|Single user mode or emergency mode means no network no multitasking is present in this mode only root has access in this runlevel.|||
+|init 2|No network but multitasking support is present.|||
+|init 3|Network is present multitasking is present but with out GUI .|||
+|init 4|It is similar to runlevel 3; It is reserved for other purposes in research.Network is present multitasking and GUI is present with sound etc.|||
+|init 5|This runlevel is defined to system restart.
+|init s|Tells the init command to enter the maintenance mode. When the
+system enters maintenance mode from another run level, only the system console
+is used as the terminal.
+|
+|init 6   |Restarts the system whithout calling any procces. Can be perfomed only by the SU.|shutdown -r|SAFELY restarts the system. Can be performed by any user.|
+|||shutdown -r09:35|Reboot the machine at 09:35am.|
+|||shutdown -c|Cancel a pending shutdown.|
+|||||
+|||||
+|||||
+|||||
 
 ## Halt command
 **Halt** instructs the hardware to stop all CPU functions, but leaves it powered on. You can use it to get the system to a state where you can perform low level maintenance.
 
 
-| Halt          | Description                            |
+| Halt          | Description                           |
 | ------------- | ------------------------------------- |
 |               |                                       |
 | halt          | Halts the machine (complete shutdown) |
@@ -79,7 +92,7 @@ sudo dpkg-reconfigure lightdm
 ## Power off Command
 **Poweroff** sends an ACPI signal which instructs the system to power down.
 
-| Poweroff          | Description             |
+| Poweroff          | Description            |
 | ----------------- | ---------------------- |
 |                   |                        |
 | poweroff          | Powers off the machine |
@@ -88,7 +101,6 @@ sudo dpkg-reconfigure lightdm
 
 
 ## Reboot Command
-
 **Reboot** instructs the system to restart.
 
 | Reboot        | Description            |
