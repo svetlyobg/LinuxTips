@@ -64,7 +64,8 @@ sudo dpkg-reconfigure lightdm
 |||shutdown -r09:35|Reboot the machine at 09:35am|
 |||shutdown -c|Cancel a pending shutdown|
 
-<br>
+## Halt command
+<bp>
 |Halt|Dicription|  
 |----|----------|
 |halt|Halts the machine (complete shutdown)|
