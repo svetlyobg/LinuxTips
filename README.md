@@ -66,12 +66,6 @@ sudo dpkg-reconfigure lightdm
 
 ## Halt command
 **Halt** instructs the hardware to stop all CPU functions, but leaves it powered on. You can use it to get the system to a state where you can perform low level maintenance.
-<p>
-|Halt|Dicription|  
-|---|---|
-|halt|Halts the machine (complete shutdown)|
-|halt -p|Powers off the machine|
-|halt --reboot|Reboot the machine|
 
 
 | Halt          | Dicription                            |
