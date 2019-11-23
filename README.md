@@ -75,5 +75,12 @@ sudo dpkg-reconfigure lightdm
 | halt -p       | Powers off the machine                |
 | halt --reboot | Reboot the machine                    |
 
+##Power off Command
+**Poweroff** sends an ACPI signal which instructs the system to power down
 
-
+| Poweroff          | Dicription             |
+| ----------------- | ---------------------- |
+|                   |                        |
+| poweroff          | Powers off the machine |
+| poweroff --halt   | Halts the machine      |
+| poweroff --reboot | Reboot the machine     |
