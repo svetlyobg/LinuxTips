@@ -46,4 +46,4 @@ ffmpeg -i downloaded_file.aa output.mp3
 sudo dpkg-reconfigure lightdm
 `
 <br>
-![alt text](reconfigure-lightdm.jpg=480x720 "reconfigure-lightdm.jpg") <br>
+![alt text](reconfigure-lightdm.jpg "reconfigure-lightdm.jpg"){:height="50%" width="50%"} <br>
