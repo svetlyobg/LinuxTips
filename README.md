@@ -65,7 +65,8 @@ sudo dpkg-reconfigure lightdm
 |||shutdown -c|Cancel a pending shutdown|
 
 ## Halt command
-<bp>
+**Halt** instructs the hardware to stop all CPU functions, but leaves it powered on. You can use it to get the system to a state where you can perform low level maintenance.
+<p>
 |Halt|Dicription|  
 |---|---|
 |halt|Halts the machine (complete shutdown)|
