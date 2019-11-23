@@ -42,11 +42,12 @@ ffmpeg -i downloaded_file.aa output.mp3
 `
 ## GNU/Linux booting to CLI, no GUI
 
-<br>
-![alt text](reconfigure-lightdm.jpg "reconfigure-lightdm.jpg")<br>
-
 You can type `startx` to start the system with the available GUI options.
 
 `
 sudo dpkg-reconfigure lightdm
 `
+
+<br>
+![alt text](reconfigure-lightdm.jpg "reconfigure-lightdm.jpg")<br>
+
