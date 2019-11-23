@@ -67,7 +67,7 @@ sudo dpkg-reconfigure lightdm
 ## Halt command
 <bp>
 |Halt|Dicription|  
-|----|----------|
+|---|---|
 |halt|Halts the machine (complete shutdown)|
 |halt -p|Powers off the machine|
 |halt --reboot|Reboot the machine|
