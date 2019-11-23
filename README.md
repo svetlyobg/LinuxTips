@@ -55,5 +55,9 @@ sudo dpkg-reconfigure lightdm
 
 | Init  	|Dicription   	|Shutdown   	|Dicription|  
 |---	    |---	          |---	    	  |---        |
-|init 0   |Shuts down the system whithout calling any procces. Can be perfomed only tby the SU|shutdown|SAFELY shuts down the system. Can be performed by any user|
-|init 6   |Restarts the system whithout calling any procces. Can be perfomed only tby the SU|  
+|init 0   |Shuts down the system whithout calling any procces. Can be perfomed only by the SU|shutdown|SAFELY shuts down the system. Can be performed by any user|
+|||shutdown now|
+|||shutdown -p now|Powers off the machine
+|||shutdown -H|Halts the system
+|||shutdown 13:20|Schedules shutdown for 13:20
+|init 6   |Restarts the system whithout calling any procces. Can be perfomed only by the SU|shutdown -r|SAFELY restarts the system. Can be performed by any user
