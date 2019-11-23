@@ -63,5 +63,9 @@ sudo dpkg-reconfigure lightdm
 |init 6   |Restarts the system whithout calling any procces. Can be perfomed only by the SU|shutdown -r|SAFELY restarts the system. Can be performed by any user|
 |||shutdown -r09:35|Reboot the machine at 09:35am|
 |||shutdown -c|Cancel a pending shutdown|
-|||||
+
+<p>
+|Halt|Dicription|  
+|----|----------|
+|halt|Halts the machine (complete shutdown)|
 |||||
