@@ -49,5 +49,7 @@ sudo dpkg-reconfigure lightdm
 `
 
 <br>
+<img src="https://i.imgur.com/qAcWGIR.jpg" style="zoom:50%;" alt="reconfigure-lightdm" />
+
 ![alt text](reconfigure-lightdm.jpg "reconfigure-lightdm.jpg")<br>
 
