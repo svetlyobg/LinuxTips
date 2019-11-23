@@ -53,3 +53,7 @@ sudo dpkg-reconfigure lightdm
 
 ## Difference between init and shutdown
 
+| Init  	|Dicription   	|Shutdown   	|Dicription|  
+|---	    |---	    |---	    	|---    |
+|init 0   |  Matches the Pattern 	   	|^OFF$  |
+|init 6   | 
