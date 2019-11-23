@@ -54,6 +54,6 @@ sudo dpkg-reconfigure lightdm
 ## Difference between init and shutdown
 
 | Init  	|Dicription   	|Shutdown   	|Dicription|  
-|---	    |---	    |---	    	|---    |
-|init 0   |  Matches the Pattern 	   	|^OFF$  |
-|init 6   | 
+|---	    |---	          |---	    	  |---        |
+|init 0   |Shuts down the system whithout calling any procces. Can be perfomed only tby the SU|shutdown|SAFELY shuts down the system. Can be performed by any user|
+|init 6   |Restarts the system whithout calling any procces. Can be perfomed only tby the SU|  
