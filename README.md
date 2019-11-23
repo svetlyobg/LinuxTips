@@ -51,3 +51,5 @@ sudo dpkg-reconfigure lightdm
 <br>
 <img src="https://i.imgur.com/qAcWGIR.jpg" style="zoom:50%;" alt="reconfigure-lightdm" />
 
+## Difference between init and shutdown
+
