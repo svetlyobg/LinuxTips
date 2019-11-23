@@ -41,7 +41,9 @@ sudo apt-get install geoclue-2.0
 ffmpeg -i downloaded_file.aa output.mp3
 `
 ## GNU/Linux booting to CLI, no GUI
-`
-sudo dpkg-reconfigure lightdm
 
 `
+sudo dpkg-reconfigure lightdm
+`
+<br>
+![alt text](reconfigure-lightdm.jpg "reconfigure-lightdm.jpg") <br>
