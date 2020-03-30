@@ -57,6 +57,19 @@ sudo dpkg-reconfigure lightdm
 sudo apt get update -y
 sudo apt get upgrade -y
 sudo add-apt-repository ppa:remmina-ppa-team/remmina-master
+sudo apt get update -y
+sudo apt get install remmina remmina-plugin-rdp
+sudo apt get purge remmina-* -y
+sudo apt get autoremove -y
+sudo apt get install remmina remmina-plugin-vnc remmina-plugin-rdp -y
+sudo killall remmina
+sudo apt get purge remmina* -y
+rm -Rf /home/`whoami`/.remmina/remmina.pref -y
+sudo add-apt-repository ppa:remmina-ppa-team/remmina-next -y
+sudo apt get update -y
+sudo apt get install remmina* -y
+sudo apt get install remmina remmina-plugin-vnc remmina-plugin-rdp -y
+sudo apt get install remmina-plugin-rdp
 ```
 
 
