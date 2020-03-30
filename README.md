@@ -51,6 +51,14 @@ sudo dpkg-reconfigure lightdm
 <br>
 <img src="https://i.imgur.com/qAcWGIR.jpg" style="zoom:50%;" alt="reconfigure-lightdm" />
 
+## Reminna - Protocol plugin RDP is not installed
+`
+sudo apt get update -y
+sudo apt get upgrade -y
+sudo add-apt-repository ppa:remmina-ppa-team/remmina-master
+`
+
+
 ## Difference between init and shutdown
 
 | Init  	|Description   	|Shutdown   	|Description|  
